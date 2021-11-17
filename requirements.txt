@@ -1,0 +1,62 @@
+# pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib>=3.3.2
+matplotlib-inline>=0.1.3
+matplotlib-venn>=0.11.6
+
+numpy>=1.19.3
+opencv-contrib-python>=4.5.4.58
+opencv-python>=4.5.4.58
+opencv-python-headless>=4.5.4.58
+Pillow>=7.0.0
+PyYAML>=5.4.1
+requests>=2.25.1
+scipy>=1.4.1
+torch>=1.7.0
+torchvision>=0.8.1
+tqdm>=4.41.0
+
+# Logging -------------------------------------
+tensorboard>=2.6.0
+tensorboard-data-server>=0.6.1
+tensorboard-plugin-wit>=1.8.0
+tensorboardX>=2.2
+tensorflow>=2.6.0
+tensorflow-addons>=0.14.0
+tensorflow-cloud>=0.1.14
+tensorflow-datasets>=4.3.0
+tensorflow-estimator>=2.6.0
+tensorflow-gcs-config>=2.6.0
+tensorflow-hub>=0.12.0
+tensorflow-io>=0.18.0
+tensorflow-metadata>=1.2.0
+tensorflow-probability>=0.13.0rc0
+tensorflow-serving-api>=2.6.0
+tensorflow-transform>=1.3.0
+tensorpack>=0.11
+# wandb
+
+# Plotting ------------------------------------
+pandas>=1.3.4
+pandas-datareader>=0.10.0
+pandas-profiling>=3.0.0
+pandas-summary>=0.0.7
+pandasq>=l0.7.3
+
+seaborn>=0.11.2
+
+# Export --------------------------------------
+# coremltools>=4.1  # CoreML export
+# onnx>=1.9.0  # ONNX export
+# onnx-simplifier>=0.3.6  # ONNX simplifier
+# scikit-learn==0.19.2  # CoreML quantization
+# tensorflow>=2.4.1  # TFLite export
+# tensorflowjs>=3.9.0  # TF.js export
+
+# Extras --------------------------------------
+# albumentations>=1.0.3
+# Cython  # for pycocotools https://github.com/cocodataset/cocoapi/issues/172
+# pycocotools>=2.0  # COCO mAP
+# roboflow
+thop  # FLOPs computation
